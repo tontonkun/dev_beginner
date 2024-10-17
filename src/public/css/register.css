@@ -1,0 +1,81 @@
+/* 他のスタイルも適宜調整 */
+.header {
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTitle {
+    margin-left: 20px;
+}
+
+.headerLinks {
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+}
+
+
+.titleArea {
+    margin: auto;
+    height: 50px;
+    padding: 15px;
+}
+
+.title {
+    font-size: 20px;
+    /* 必要に応じてフォントサイズを調整 */
+    font-weight: bold;
+    /* タイトルを太字にする */
+    text-align: center;
+    /* タイトルを中央揃えにする */
+    align-items: center;
+}
+
+.main {
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 500px;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inputArea {
+    margin: 15px auto;
+}
+
+.name,
+.mail,
+.password {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registerButton {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.registerLink {
+    text-decoration: none;
+    display: block;
+}
+
+.annonceForMenbers {
+    font-size: 10px;
+    margin-top: 20px;
+    /* 他の要素との間に余白を作る */
+}
